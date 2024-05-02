@@ -1,6 +1,10 @@
 package com.example.uber.domain.model
 
 data class Passenger(
-    val user: User,
-    val map: Map
+    val name: String,
+    val lastName: String,
+    val dateOfBirth: Long,
+    val identity: Int,
+    val cellphone: String,
+    val address: Address
 )
