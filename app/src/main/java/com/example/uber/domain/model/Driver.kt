@@ -1,7 +1,12 @@
 package com.example.uber.domain.model
 
 data class Driver(
-    val user: User,
+    val email: String,
+    val name: String,
+    val lastName: String,
+    val dateOfBirth: Long,
+    val identity: Int,
+    val cellphone: String,
     val transportation: Transportation,
-    val map: Map
+    val address: Address
 )
